@@ -1,6 +1,4 @@
-## SQL Scripts
-
-| Script | Purpose |
+| SQL | Purpose |
 | :--- | :--- |
 | `check_daily_patient.sql` | Daily patient service tracking |
 | `check_service_cost.sql` | Patient service cost analysis |
@@ -11,12 +9,10 @@
 | `view_allergy_history.sql` | Drug allergy history |
 | `view_village.sql` | Patient geographic information |
 
-## Database Relationships
+## ER Diagram
 
-
-```mermaid id="h4n8cs"
+```mermaid
 graph TD
-
     ovst["ovst"]
     patient["patient"]
     vn_stat["vn_stat"]
@@ -28,16 +24,12 @@ graph TD
     dtx["DTX"]
 
     ovst -->|hn| patient
-    ovst -->|hn| vn_stat
-    ovst -->|hn| opitemrece
+    ovst -->|vn| vn_stat
+    ovst -->|vn| opitemrece
     ovst -->|hn| opdscreen
 
     vn_stat --> pttype
     vn_stat --> icd101
 
     opitemrece --> nondrugitems
-
     opdscreen -->|DTX| dtx
-```
-
-
