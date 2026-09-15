@@ -1,13 +1,13 @@
 | SQL | รายละเอียด |
 | :--- | :--- |
-| `check_daily_patient.sql` | ติดตามการให้บริการผู้ป่วยรายวัน |
-| `check_service_cost.sql` | วิเคราะห์ค่าใช้จ่ายการให้บริการผู้ป่วย |
-| `dtx_export.sql` | ดึงข้อมูล DTX |
-| `masked_patient.sql` | ปกปิดข้อมูลผู้ป่วย |
-| `migration_patient_data.sql` | แปลงและย้ายข้อมูลผู้ป่วย |
-| `telemedicine_export.sql` | ดึงข้อมูลผู้ป่วย Telemedicine |
-| `view_allergy_history.sql` | ประวัติการแพ้ยา |
-| `view_village.sql` | ข้อมูลพื้นที่และหมู่บ้านของผู้ป่วย |
+| check_daily_patient.sql | ติดตามการให้บริการผู้ป่วยรายวัน |
+| check_service_cost.sql | วิเคราะห์ค่าใช้จ่ายการให้บริการผู้ป่วย |
+| dtx_export.sql | ดึงข้อมูล DTX |
+| masked_patient.sql | ปกปิดข้อมูลผู้ป่วย |
+| migration_patient_data.sql | แปลงและย้ายข้อมูลผู้ป่วย |
+| telemedicine_export.sql | ดึงข้อมูลผู้ป่วย Telemedicine |
+| view_allergy_history.sql | ประวัติการแพ้ยา |
+| view_village.sql | ข้อมูลพื้นที่และหมู่บ้านของผู้ป่วย |
 
 ## ER Diagram
 
