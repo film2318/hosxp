@@ -1,35 +1,24 @@
-| SQL | รายละเอียด |
-| :--- | :--- |
-| daily.sql | ติดตามการให้บริการผู้ป่วยรายวัน |
-| cost.sql | วิเคราะห์ค่าใช้จ่ายการให้บริการผู้ป่วย |
-| dtx.sql | ดึงข้อมูล DTX |
-| masked.sql | ปกปิดข้อมูลผู้ป่วย |
-| patient.sql | แปลงและย้ายข้อมูลผู้ป่วย |
-| telemedicine\.sql | ดึงข้อมูลผู้ป่วย Telemedicine |
-| allergy.sql | ประวัติการแพ้ยา |
-| village.sql | ข้อมูลพื้นที่และหมู่บ้านของผู้ป่วย |
+# HOSxP SQL Queries
 
-## ER Diagram
+SQL queries for retrieving and transforming patient data from HOSxP based on clinical and administrative requirements.
 
-```mermaid
-graph TD
-    ovst["ovst"]
-    patient["patient"]
-    vn_stat["vn_stat"]
-    pttype["pttype"]
-    opitemrece["opitemrece"]
-    nondrugitems["nondrugitems"]
-    icd101["icd101"]
-    opdscreen["opdscreen"]
-    dtx["DTX"]
+## About
 
-    ovst -->|hn| patient
-    ovst -->|vn| vn_stat
-    ovst -->|vn| opitemrece
-    ovst -->|hn| opdscreen
+HOSxP is a hospital information system (HIS/EHR) widely used in hospitals across Thailand.
 
-    vn_stat --> pttype
-    vn_stat --> icd101
+## Queries
 
-    opitemrece --> nondrugitems
-    opdscreen -->|DTX| dtx
+| File | Purpose |
+|---|---|
+| `daily.sql` | Track daily patient services |
+| `cost.sql` | Analyze patient service costs |
+| `dtx.sql` | Retrieve DTX data |
+| `masked.sql` | Mask patient data |
+| `patient.sql` | Transform and migrate patient data |
+| `telemedicine.sql` | Retrieve Telemedicine patient data |
+| `allergy.sql` | Retrieve drug allergy history |
+| `village.sql` | Retrieve patient village data |
+
+## Notes
+
+Queries are designed for HOSxP database environments and may require adjustment based on database version and schema.
