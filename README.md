@@ -1,12 +1,4 @@
-# HOSxP SQL Queries
-
-SQL queries for retrieving and transforming patient data from HOSxP based on clinical and administrative requirements.
-
-## About
-
-HOSxP is a hospital information system (HIS/EHR) widely used in hospitals across Thailand.
-
-## Queries
+## SQL Queries
 
 | File | Purpose |
 |---|---|
@@ -19,6 +11,6 @@ HOSxP is a hospital information system (HIS/EHR) widely used in hospitals across
 | `allergy.sql` | Retrieve drug allergy history |
 | `village.sql` | Retrieve patient village data |
 
-## Notes
+## How to use
 
-Queries are designed for HOSxP database environments and may require adjustment based on database version and schema.
+<img src="https://res.cloudinary.com/dpa96jvla/image/upload/v1791078630/og_image_1_wl8txl.png" width="1200" alt="Image">
