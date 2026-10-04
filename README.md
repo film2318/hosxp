@@ -11,6 +11,8 @@
 | `allergy.sql` | Retrieve drug allergy history |
 | `village.sql` | Retrieve patient village data |
 
+
 ## How to use
 
-<img src="https://res.cloudinary.com/dpa96jvla/image/upload/v1791078630/og_image_1_wl8txl.png" width="1200" alt="Image">
+![](https://res.cloudinary.com/dpa96jvla/image/upload/v1791078630/og_image_1_wl8txl.png)
+
