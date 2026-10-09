@@ -1,18 +1,24 @@
+## Overview
+
+A collection of 8 SQL queries developed to analyze a legacy HOSxP database containing 1,000,000+ patient records across 50+ tables without an ER diagram.
+
 ## SQL Queries
 
-| File | Purpose |
-|---|---|
-| `daily.sql` | Track daily patient services |
-| `cost.sql` | Analyze patient service costs |
-| `dtx.sql` | Retrieve DTX data |
-| `masked.sql` | Mask patient data |
-| `patient.sql` | Transform and migrate patient data |
-| `telemedicine.sql` | Retrieve Telemedicine patient data |
-| `allergy.sql` | Retrieve drug allergy history |
-| `village.sql` | Retrieve patient village data |
+| Use Case          | Description                        |
+| ----------------- | ---------------------------------- |
+| Report Generation | Retrieve data for hospital reports |
+| Data Analysis     | Analyze healthcare data            |
 
+## How to Use
 
-## How to use
+1. Open the `.sql` file for the query you need.
+2. Review the query and adjust table names or conditions if necessary.
+3. Execute the query against a compatible HOSxP database.
 
-![](https://res.cloudinary.com/dpa96jvla/image/upload/v1791078630/og_image_1_wl8txl.png)
+> **Note:** Test queries in a safe environment and ensure you have appropriate database access permissions.
 
+## Tech Stack
+
+* **Database:** MySQL
+* **Query Language:** SQL
+* **Healthcare System:** HOSxP
