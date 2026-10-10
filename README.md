@@ -21,4 +21,3 @@ A collection of 8 SQL queries developed to analyze a legacy HOSxP database conta
 
 * **Database:** MySQL
 * **Query Language:** SQL
-* **Healthcare System:** HOSxP
