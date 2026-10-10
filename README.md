@@ -1,6 +1,6 @@
 ## Overview
 
-A collection of 8 SQL queries developed to analyze a legacy HOSxP database containing 1,000,000+ patient records across 50+ tables without an ER diagram.
+A collection of 8 SQL queries developed to analyze a legacy HOSxP database containing 400K+ patient records across 50+ tables without an ER diagram.
 
 ## SQL Queries
 
