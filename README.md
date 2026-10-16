@@ -19,5 +19,6 @@ A collection of 8 SQL queries developed to analyze a legacy HOSxP database conta
 
 ## Tech Stack
 
-* **Database:** MySQL
 * **Language:** SQL
+* **Database:** MySQL
+
