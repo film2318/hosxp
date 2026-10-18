@@ -1,6 +1,6 @@
 ## Overview
 
-A collection of 8 SQL queries developed to analyze a legacy HOSxP database containing 400K+ patient records across 50+ tables without an ER diagram.
+Achieved THB 300,000 in training cost savings by independently reverse-engineering HOSxP (HIS/EHR) database schemas across 50+ undocumented tables and 400,000+ records using 8 SQL queries.
 
 ## How to Use
 
