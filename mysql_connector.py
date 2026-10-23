@@ -11,7 +11,7 @@ mydb = mysql.connector.connect(
 )
 
 try:
-    query = "SELECT * FROM ovst"
+    query = "SELECT * FROM patient"
     df = pd.read_sql(query, mydb)
 
     # แสดงข้อมูลเป็นตาราง
