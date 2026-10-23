@@ -1,17 +1,21 @@
+
 import mysql.connector
+import pandas as pd
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="yourusername",
-  password="yourpassword",
-  database="hosxp"
+    host="localhost",
+    port=3306,
+    user="root",
+    password="",
+    database="hosxp"
 )
 
-mycursor = mydb.cursor()
+try:
+    query = "SELECT * FROM ovst"
+    df = pd.read_sql(query, mydb)
 
-mycursor.execute("SELECT * FROM ovst")
+    # แสดงข้อมูลเป็นตาราง
+    print(df.to_string(index=False))
 
-myresult = mycursor.fetchall()
-
-for x in myresult:
-  print(x)
+finally:
+    mydb.close()
