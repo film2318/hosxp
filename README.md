@@ -15,6 +15,4 @@ Achieved THB 300,000 in training cost savings by independently reverse-engineeri
 - 
 ## Preview
 
-Registration notifications are sent to nurses via the LINE Messaging API using Flex Messages.
-
 ![sql edditor](https://res.cloudinary.com/dpa96jvla/image/upload/v1791078630/og_image_1_wl8txl.png)
