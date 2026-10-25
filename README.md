@@ -1,6 +1,6 @@
 ## Overview
 
-Achieved THB 300,000 in training cost savings by independently reverse-engineering the HOSxP (HIS/EHR) database, analyzing 50+ undocumented tables and 400,000+ records using SQL and Python.
+Achieved THB 300,000 in training cost savings by independently reverse-engineering the HOSxP (HIS/EHR) database, analyzing 50+ undocumented tables and 1,000,000+ patient records using SQL and Python.
 
 ## Tools & Technologies
 
@@ -19,8 +19,8 @@ Achieved THB 300,000 in training cost savings by independently reverse-engineeri
 1. Install the required dependencies:
    `pip install pandas sqlalchemy pymysql tabulate`
 2. Configure your MySQL connection settings.
-3. Run the Python script to extract and display the selected data.
+3. Run  `python mysql_connector.py` to extract and display the selected data.
 
-## SQL Editor
+## Example output
 
-![SQL Editor](https://res.cloudinary.com/dpa96jvla/image/upload/v1791078630/og_image_1_wl8txl.png)
+![Python](https://res.cloudinary.com/dpa96jvla/image/upload/v1792891092/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-10-25_081751_bomntr.png)
