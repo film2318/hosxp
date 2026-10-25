@@ -13,11 +13,11 @@ pd.set_option('display.max_colwidth', 20)
 # 3. เชื่อมต่อฐานข้อมูล MySQL: hosxp
 connection_url = URL.create(
     drivername="mysql+pymysql",
-    username="hosxp",
-    password="",
-    host="localhost",
+    username="root",
+    password="yourpassword",
+    host="yourusername",
     port=3306,
-    database="hos"
+    database="mydatabase"
 )
 
 engine = create_engine(connection_url)
