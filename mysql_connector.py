@@ -29,7 +29,8 @@ try:
     # 4. เลือกเฉพาะคอลัมน์ที่ต้องการแสดง
     columns_to_show = [
         'hn',
-        'vstdate'
+        'vstdate',
+        'pname'
     ]
 
     existing_cols = [
@@ -43,7 +44,7 @@ try:
     print(
         filtered_df.to_markdown(
             index=False,
-            tablefmt="simple"
+            tablefmt="grid"
         )
     )
 
