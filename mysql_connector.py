@@ -30,7 +30,7 @@ try:
     columns_to_show = [
         'hn',
         'vstdate',
-        'vatime',
+        'vstime',
         'pname'
     ]
 
