@@ -4,9 +4,9 @@ Reverse-engineered the HOSxP database structure of a legacy hospital information
 
 ## Tools & Technologies
 
-- **SQL:** Database exploration and schema analysis.
-- **Python:** Data extraction and tabular output using Pandas and SQLAlchemy.
-- **Database:** MySQL (HOSxP).
+- SQL
+- Python
+- MySQL(HOSxP).
 
 ## How to Use
 
