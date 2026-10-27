@@ -23,4 +23,4 @@ Reverse-engineered the HOSxP database structure of a legacy hospital information
 
 ## Example output
 
-![Python](https://res.cloudinary.com/dpa96jvla/image/upload/v1793072950/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-10-27_104833_kxkpqd.png)
+![Python](https://res.cloudinary.com/dpa96jvla/image/upload/v1793075801/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2026-10-27_113625_isout5.png)
