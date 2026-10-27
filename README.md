@@ -2,11 +2,11 @@
 
 Reverse-engineered the HOSxP database structure of a legacy hospital information system released in 1999, analyzing 15+ OPD-related tables and 1,000,000+ patient records using SQL DESCRIBE queries without a data dictionary, saving THB 300,000 in training costs.
 
-## Tools & Technologies
+## Tools
 
 - SQL
 - Python
-- MySQL(HOSxP).
+- MySQL (HOSxP)
 
 ## How to Use
 
