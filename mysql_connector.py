@@ -30,7 +30,7 @@ try:
     filtered_df = df[existing_cols]
 
     table = Table(
-        box=box.HEAVY_HEAD,
+        box=box.SQUARE,
         show_lines=True,
         header_style="white",
         title_style="bold yellow",
