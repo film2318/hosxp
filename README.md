@@ -1,6 +1,6 @@
 ## Overview
 
-Reverse-engineered the HOSxP legacy database schema using SQL DESCRIBE queries, analyzing 15+ OPD tables and 1M+ patient records without a data dictionary, saving THB 300,000 in training costs.
+Reverse-engineered HOSxP database schema using SQL DESCRIBE queries, analyzing 15+ OPD tables and 1M+ patient records without a data dictionary, saving THB 300,000 in training costs.
 
 ## How to Use
 
