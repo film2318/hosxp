@@ -18,7 +18,7 @@ engine = create_engine(connection_url)
 console = Console()
 
 try:
-    df = pd.read_sql("SELECT * FROM osvst", engine)
+    df = pd.read_sql("SELECT * FROM ovst", engine)
 
     columns_to_show = [
         "hn",
